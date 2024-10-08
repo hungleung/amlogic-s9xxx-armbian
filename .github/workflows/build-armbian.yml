@@ -22,7 +22,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "all"
+        default: "s905d"
         type: choice
         options:
           - all
@@ -224,12 +224,12 @@ on:
       builder_name:
         description: "Set Armbian builder signature."
         required: false
-        default: "ophub"
+        default: "lee"
         type: choice
         options:
           - ophub
           - angel
-          - yourname
+          - lee
 
 env:
   TZ: America/New_York
